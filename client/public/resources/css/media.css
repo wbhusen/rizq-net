@@ -53,6 +53,11 @@
   }
 }
 
+/* Apply 992 or greater */
+@media (min-width: 992px) {
+
+}
+
 @media (max-width: 640px) {
     .rs-firework::after {
       display: none;

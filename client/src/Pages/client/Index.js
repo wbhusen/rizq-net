@@ -7,6 +7,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import TestimonialSlider from "../../Components/client/TestimonialSlider";
+import IndustriesWeServe from "../../Components/client/IndustriesWeServe";
 
 const Index = () => {
   return (
@@ -422,6 +423,12 @@ const Index = () => {
           </div>
         </section>
         {/* Our Client Section End */}
+
+        {/* Industries We Serv Section Start */}
+        <section className="bg-grey overflow-hidden mb100 pt70 pb70">
+          <IndustriesWeServe />
+        </section>
+        {/* Industries We Serv Section End */}
 
       </main>
 
