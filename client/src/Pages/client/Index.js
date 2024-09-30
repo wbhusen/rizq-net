@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../Layouts/client/Header";
+import Footer from "../../Layouts/client/Footer";
 import { colours } from "../../Utils/Colours";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
@@ -423,6 +424,10 @@ const Index = () => {
         {/* Our Client Section End */}
 
       </main>
+
+      {/* Header Start */}
+        <Footer />
+      {/* Header End */}
     </>
   );
 };

@@ -432,6 +432,12 @@ img {
   background: var(--bg-light) !important;
 }
 
+.btn-light {
+  background: #292a2d;
+  border-color: #292a2d;
+  color: var(--white);
+}
+
 .bg-dark {
   background: var(--bg-dark-rgb) !important;
 }
@@ -478,6 +484,11 @@ svg:not(:root) {
   line-height: 1.25;
   font-weight: 700;
   font-family: var(--caveat-font-family);
+}
+
+h6 {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
 }
 
 /* Attributes */
@@ -864,9 +875,10 @@ svg:not(:root) {
   border: 1px solid #f2f2f2;
   list-style-type: none;
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 7px 20px;
   position: relative;
   overflow: hidden;
+  border-radius: var(--btn-border-radius);
 }
 
 .trusted-partners-inner .img-item img {
@@ -999,3 +1011,39 @@ svg:not(:root) {
   margin-left: auto !important;
 }
 /***************** Testimonial Section End *********************/
+
+/***************** Footer Start *********************/
+
+.nav-item .nav-link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-icon {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  padding: 0;
+  border-radius: var(--btn-border-radius);
+}
+
+.btn-icon.btn-xs {
+  width: 2rem;
+  height: 2rem;
+  font-size: .8rem;
+}
+
+.btn-icon.btn-xs:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.footer-shape {
+  margin-left: auto !important;
+  margin-top: -15rem !important;
+  left: 0 !important;
+  top: auto !important;
+}
+
+/***************** Footer End *********************/
