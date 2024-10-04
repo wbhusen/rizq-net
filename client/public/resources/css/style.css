@@ -5,6 +5,7 @@
     --primary-color: #ffc100;
     --normal-light-primary: #ffd249;
     --secondary-color: #161616;
+    --gradient: linear-gradient(to bottom, rgba(255, 193, 0, 0.1), rgba(255, 193, 0, 0.5));  
     --white: #ffffff;
     --bg-light: rgba(255, 193, 0, 0.1);
     --bg-dark-rgb: rgb(32, 33, 36);
@@ -438,6 +439,10 @@ img {
   background: var(--bg-grey) !important;
 }
 
+.bg-gradient {
+  background: var(--gradient);
+}
+
 .btn-light {
   background: #292a2d;
   border-color: #292a2d;
@@ -713,6 +718,7 @@ h6 {
 
 .sticky-header {
   position: sticky !important;
+  background: var(--bg-light);
   z-index: 99;
   width: 100%;
   top: 0;
@@ -836,7 +842,7 @@ h6 {
 .rs-hero-shape3 {
   position: absolute;
   top: 58%;
-  left: 3%;
+  right: 40%;
   z-index: -1;
   animation: imagebgmove 4s infinite alternate;
 }
@@ -848,33 +854,6 @@ h6 {
   100% {
       transform: translateX(1.25rem);
   }
-}
-
-.hero-img-main {
-  position: absolute;
-  top: auto;
-  right: 0;
-  overflow: hidden;
-}
-
-.hero-img {
-  -webkit-mask-image: url('../images/wireframe/hero-wireframe.svg');
-  height: 100%;
-  width: 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  background-position: 50%;
-  overflow: hidden;
-  transform: translate(10%, -6%);
-}
-
-.hero-img img {
-  height: 53rem;
-  object-fit: cover;
-}
-
-.hero-img-inner {
-  margin-top: 2.8125rem;
 }
 
 /***************** Hero Section End *********************/

@@ -18,7 +18,7 @@ const Index = () => {
 
       <main>
         {/* Hero Section Start */}
-        <section className="bg-light">
+        <section className="bg-gradient">
           <div className="rs-hero-shape1">
             <svg
               width="145"
@@ -72,22 +72,7 @@ const Index = () => {
               ></circle>
             </svg>
           </div>
-          <div className="hero-img-main">
-            <div className="hero-img">
-              <img
-                src={`../../../resources/images/wireframe/hero-img.webp`}
-                alt="banner"
-                fetchpriority="high"
-                loading="lazy"
-                width="1000"
-                height="1000"
-                decoding="async"
-                data-nimg="1"
-                className="hero-img-inner"
-                style={{ color: colours.transparent }}
-              />
-            </div>
-            <div className="rs-hero-shape3 d-none d-md-block">
+          <div className="rs-hero-shape3">
               <svg
                 width="214"
                 height="214"
@@ -104,7 +89,6 @@ const Index = () => {
                   strokeWidth="50"
                 ></circle>
               </svg>
-            </div>
           </div>
           <div className="container py-20">
             <div className="grid grid-cols-6 gap-4">

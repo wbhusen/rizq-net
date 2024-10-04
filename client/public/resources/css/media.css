@@ -34,9 +34,6 @@
 }
 
 @media (max-width: 992px) {
-    .hero-img img {
-      display: none !important;
-    }
     .rs-hero-shape2 {
       display: none !important;
     }

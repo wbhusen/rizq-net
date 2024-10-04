@@ -55,7 +55,7 @@ const Header = () => {
 
   return (
     <>
-        <header className="bg-white sticky-header">
+        <header className="bg-gradient sticky-header">
             <nav aria-label="Global" className="container flex items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1">
                 <a href="#" className="-m-1.5 p-1.5">
@@ -157,7 +157,7 @@ const Header = () => {
                     className="-m-2.5 rounded-md p-2.5 text-gray-700"
                     >
                     <span className="sr-only">Close menu</span>
-                    <XMarkIcon aria-hidden="true" className="h-6 w-6" />
+                    {/* <XMarkIcon aria-hidden="true" className="h-6 w-6" /> */}
                     </button>
                 </div>
                 <div className="mt-6 flow-root">
