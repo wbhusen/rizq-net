@@ -142,7 +142,7 @@ const Index = () => {
           <div className="container">
             <div className="trusted-partners">
               <p className="section-title rs-btm-line">
-                Trusted by Global Enterprises
+                Trusted by Global Enterprise
               </p>
               <div className="trusted-partners-inner pt50">
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
